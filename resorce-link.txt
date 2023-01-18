@@ -1,0 +1,17 @@
+font
+Angular Meterial
+Bootstrap
+owl Carousel
+----------------------
+Cookies
+npm i ngx-cookie-service
+@NgModule({
+  ...
+    providers:
+[CookieService],
+...
+})
+------------------
+https://ipregistry.co/
+______________________
+ https://www.tawk.to/

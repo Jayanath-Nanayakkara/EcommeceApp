@@ -1,0 +1,15 @@
+<div class="main-outer">
+    <a mat-icon-button [matMenuTriggerFor]="menu">Profile</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <mat-icon>inventory</mat-icon>
+          <span>Orders</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>manage_accounts</mat-icon>
+          <span>MY account</span>
+        </button>
+      </mat-menu>
+    <a routerLink="/security/login">Login</a>&nbsp;&nbsp;
+    <button class="access-control-button" routerLink="/console/playground/product/new">Access Console</button>
+</div>
